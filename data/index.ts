@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -9,7 +10,7 @@ export const gridItems = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    description: "Bachelor degree in Computer Engineriing",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -107,19 +108,19 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
+    title: "Founder of Minab Tech",
+  },
+  {
+    quote:
+      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Siyamregn is the ideal partner.",
+    name: "Solomon Asregdew",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
