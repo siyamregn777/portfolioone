@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Dynamic Web Magic with React.js
           </p>
 
           {/**
@@ -77,7 +77,7 @@ const Hero = () => {
             Hello! I&apos;m Siyamregn, a Website Developer.
           </p>
 
-          <Link href="#about">
+          <Link href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

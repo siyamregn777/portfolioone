@@ -77,7 +77,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://glowing-storess.vercel.app/",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://smartyshop.vercel.app/",
   },
   {
     id: 3,
@@ -93,50 +93,62 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://aifront-indol.vercel.app/",
+  },
+
+  {
+    id: 3,
+    title: "AI Image SaaS - Canva Application",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://africa-tourism.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Animated Apple Iphone 3D Website", 
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://travelgo-lemon.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "LexiAssist - AI-Powered Writing Assistant",
+    des: "An AI-powered writing assistant that helps users create high-quality content quickly and easily.",
+    img: "/p5.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://lexiassist.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Siyamregn was a game changer for our project. He took our vague ideas and turned them into a sleek, functional product ahead of schedule. His communication was spot on, and his technical skills speak for themselves.",
     name: "Michael Johnson",
     title: "Founder of Minab Tech",
   },
   {
     quote:
-      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Siyamregn is the ideal partner.",
+      "Siyamregn brings energy and clarity to every stage of the development process. From planning to execution, he thinks like a user and codes like a pro. He’s one of the most dependable developers I’ve worked with.",
     name: "Solomon Asregdew",
-    title: "Director of AlphaStream Technologies",
+    title: "Senior Developer at Gago IT",
   },
   {
     quote:
-      "Collaborating with Siyamregn was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siyamregn's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "You rarely find someone who can both design and develop with such creativity and precision. Siyamregn helped us launch faster and better than we imagined. I highly recommend him to any startup team.",
+    name: "Jacob Alfred",
+    title: "Startup Co-Founder",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What stood out with Siyamregn was not just his clean code, but his ability to understand our business goals. He made smart suggestions that improved our product, and his execution was flawless.",
+    name: "Tadele Tesema",
+    title: "Senior Developer at Gago IT",
   },
 ];
+
 
 export const companies = [
   {
@@ -181,24 +193,24 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Web Developer",
+    desc: "Designed and developed web applications using React.js and Node.js, focusing on user experience and performance.",
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Backend Developer",
+    desc: "Developed RESTful APIs and integrated third-party services, ensuring data security and scalability",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Freelance Web Dev Project",
+    desc: "Led a team to create a dynamic web application, implementing responsive design and modern UI/UX principles.",
+    className: "md:col-span-2", 
+    thumbnail: "/exp3.svg",
   },
 ];
 
