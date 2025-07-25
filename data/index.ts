@@ -1,3 +1,5 @@
+import { profile } from "console";
+
 export const navItems = [
   { name: "Home", link: "#/" },
   { name: "About", link: "#about" },
@@ -13,9 +15,10 @@ export const gridItems = [
     description: "Bachelor degree in Computer Engineriing",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    titleClassName: "justify-end ",
+    img: "/all.jpg",
     spareImg: "",
+    bold: true,
   },
   {
     id: 2,
@@ -73,50 +76,50 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Glowing Stores - E-commerce Website",
+    des: "store with a modern design and seamless user experience, built with Next.js, Tailwind CSS, and TypeScript.",
+    img: "/glow.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://glowing-storess.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "AllinOne E-commerce Website",
+    des: "An E-commerce website built with Next.js, Tailwind CSS, and TypeScript, featuring a modern design and seamless user experience.",
+    img: "/shop.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://smartyshop.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://aifront-indol.vercel.app/",
-  },
-
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Africa Tourism - Travel Website",
+    des: "A dynamic travel website showcasing Africa's tourism, built with Next.js, Tailwind CSS, and TypeScript.",
+    img: "/afri.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://africa-tourism.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website", 
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "AI Front - (Frontend web app)",
+    des: "A Software-as-a-Service application that leverages AI to enhance user experience and streamline workflows.",
+    img: "/ai.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://aifront-indol.vercel.app/",
+  },
+
+  {
+    id: 5,
+    title: "Mobile Showcase (Frontend web app)",
+    des: "An animated 3D website showcasing the Apple iPhone, built with Next.js, Tailwind CSS, and TypeScript.",
+    img: "/lemon.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://travelgo-lemon.vercel.app/",
   },
   {
-    id: 5,
-    title: "LexiAssist - AI-Powered Writing Assistant",
+    id: 6,
+    title: "LexiAssist-AI (Frontend web app)",
     des: "An AI-powered writing assistant that helps users create high-quality content quickly and easily.",
-    img: "/p5.svg",
+    img: "/lexi.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://lexiassist.vercel.app/",
   },
@@ -127,28 +130,31 @@ export const testimonials = [
     quote:
       "Working with Siyamregn was a game changer for our project. He took our vague ideas and turned them into a sleek, functional product ahead of schedule. His communication was spot on, and his technical skills speak for themselves.",
     name: "Michael Johnson",
-    title: "Founder of Minab Tech",
+    profile: "/jac.jpg",
+    title: "Senior web developer",
   },
   {
     quote:
       "Siyamregn brings energy and clarity to every stage of the development process. From planning to execution, he thinks like a user and codes like a pro. He’s one of the most dependable developers I’ve worked with.",
     name: "Solomon Asregdew",
+    profile: "/sol.png",
     title: "Senior Developer at Gago IT",
   },
   {
     quote:
       "You rarely find someone who can both design and develop with such creativity and precision. Siyamregn helped us launch faster and better than we imagined. I highly recommend him to any startup team.",
     name: "Jacob Alfred",
+    profile: "/jacob.png",
     title: "Startup Co-Founder",
   },
   {
     quote:
       "What stood out with Siyamregn was not just his clean code, but his ability to understand our business goals. He made smart suggestions that improved our product, and his execution was flawless.",
     name: "Tadele Tesema",
+    profile: "/tadele.png",
     title: "Senior Developer at Gago IT",
   },
 ];
-
 
 export const companies = [
   {
@@ -195,7 +201,7 @@ export const workExperience = [
     id: 2,
     title: "Full Stack Web Developer",
     desc: "Designed and developed web applications using React.js and Node.js, focusing on user experience and performance.",
-    className: "md:col-span-2", 
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
@@ -209,7 +215,7 @@ export const workExperience = [
     id: 4,
     title: "Freelance Web Dev Project",
     desc: "Led a team to create a dynamic web application, implementing responsive design and modern UI/UX principles.",
-    className: "md:col-span-2", 
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
 ];
@@ -218,13 +224,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/siyamregn777",
   },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: "https://twitter.com/siyamregn777",
+  // },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/siyamregn-yeshidagna-028947354/",
   },
 ];

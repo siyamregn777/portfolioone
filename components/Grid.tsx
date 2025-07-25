@@ -10,7 +10,15 @@ const Grid = () => {
             id={item.id}
             key={i}
             title={item.title}
-            description={item.description}
+            description={
+              item.id === 1 ? (
+                <span className="text-white text-xl">
+                  {item.description}
+                </span>
+              ) : (
+                item.description
+              )
+            }
             // remove icon prop
             // remove original classname condition
             className={item.className}
