@@ -17,13 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning >
-      <head >
+    <html lang="en" suppressHydrationWarning>
+      <head>
         <link rel="icon" href="/my.png" className="rounded-full" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
-        
           attribute="class"
           defaultTheme="dark"
           enableSystem

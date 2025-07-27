@@ -76,20 +76,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Glowing Stores - E-commerce Website",
-    des: "store with a modern design and seamless user experience, built with Next.js, Tailwind CSS, and TypeScript.",
-    img: "/glow.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://glowing-storess.vercel.app/",
-  },
-  {
-    id: 2,
     title: "AllinOne E-commerce Website",
     des: "An E-commerce website built with Next.js, Tailwind CSS, and TypeScript, featuring a modern design and seamless user experience.",
     img: "/shop.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://smartyshop.vercel.app/",
   },
+  {
+    id:21,
+    title: "Glowing Stores - E-commerce Website",
+    des: "store with a modern design and seamless user experience, built with Next.js, Tailwind CSS, and TypeScript.",
+    img: "/glow.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://glowing-storess.vercel.app/",
+  },
+
   {
     id: 3,
     title: "Africa Tourism - Travel Website",
