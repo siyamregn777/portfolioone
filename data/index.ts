@@ -83,7 +83,7 @@ export const projects = [
     link: "https://smartyshop.vercel.app/",
   },
   {
-    id:21,
+    id:2,
     title: "Glowing Stores - E-commerce Website",
     des: "store with a modern design and seamless user experience, built with Next.js, Tailwind CSS, and TypeScript.",
     img: "/glow.jpg",
