@@ -52,7 +52,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="relative mt-20 rounded-full ">
           <Image
-            src="/photo_6cut.jpg"
+            src="/my.png"
             alt="owner"
             width={180}
             height={120}
