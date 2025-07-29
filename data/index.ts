@@ -76,6 +76,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Tripexpert - Travel Website",
+    des: "Tripexpert was conceived as a better, smarter alternative to user-review travel sites. It features professional hotel, restaurant and attraction reviews from trusted sources",
+    img: "/travel.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://www.tripexpert.com/",
+  },
+  {
+    id: 2,
     title: "AllinOne E-commerce Website",
     des: "An E-commerce website built with Next.js, Tailwind CSS, and TypeScript, featuring a modern design and seamless user experience.",
     img: "/shop.jpg",
@@ -83,7 +91,7 @@ export const projects = [
     link: "https://smartyshop.vercel.app/",
   },
   {
-    id:2,
+    id: 3,
     title: "Glowing Stores - E-commerce Website",
     des: "store with a modern design and seamless user experience, built with Next.js, Tailwind CSS, and TypeScript.",
     img: "/glow.jpg",
@@ -92,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Africa Tourism - Travel Website",
     des: "A dynamic travel website showcasing Africa's tourism, built with Next.js, Tailwind CSS, and TypeScript.",
     img: "/afri.jpg",
@@ -100,21 +108,12 @@ export const projects = [
     link: "https://africa-tourism.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "AI Front - (Frontend web app)",
     des: "A Software-as-a-Service application that leverages AI to enhance user experience and streamline workflows.",
     img: "/ai.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://aifront-indol.vercel.app/",
-  },
-
-  {
-    id: 5,
-    title: "Mobile Showcase (Frontend web app)",
-    des: "An animated 3D website showcasing the Apple iPhone, built with Next.js, Tailwind CSS, and TypeScript.",
-    img: "/lemon.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://travelgo-lemon.vercel.app/",
   },
   {
     id: 6,
